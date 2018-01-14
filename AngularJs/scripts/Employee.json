@@ -1,0 +1,22 @@
+﻿[
+  {
+    "Email": "subhajitsemail@gmail.com",
+    "Empno": 1,
+    "Name": "Subhajit Sinha"
+  },
+  {
+    "Email": "stevejobs@gmail.com",
+    "Empno": 2,
+    "Name": "Steve Jobs"
+  },
+  {
+    "Email": "billgates@gmail.com",
+    "Empno": 3,
+    "Name": "Bill Gates"
+  },
+  {
+    "Email": "stevewozniak@gmail.com",
+    "Empno": 4,
+    "Name": "Steve Wozniak"
+  }
+]

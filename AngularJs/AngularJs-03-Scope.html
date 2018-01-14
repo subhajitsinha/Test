@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Scope</title>
+    <script src="scripts/angular.min.js"></script>
+	<meta charset="utf-8" />
+    <script type="text/javascript">
+        var app = angular.module("sample", []);
+        app.controller("empdetails", ["$scope", function ($scope) {
+            $scope.Name = "Jimmy";
+            $scope.Salary = 2500;
+            $scope.GenerateSalary = function () {
+                return $scope.Salary * 12;
+            }
+        }])
+        app.controller("customerdetails", ["$scope", function ($scope) {
+            $scope.Name = "Richi";
+            $scope.Salary = 5000;
+        }])
+    </script>
+</head>
+<body ng-app="sample">
+   <div ng-controller="empdetails">
+       Hello {{Name}}, your monthly salary is {{Salary}} and your annual salary is {{GenerateSalary()}}.
+   </div><br/>
+    <div ng-controller="customerdetails">
+        Hello {{Name}}, your monthly salary is {{Salary}}.
+    </div>
+</body>
+</html>

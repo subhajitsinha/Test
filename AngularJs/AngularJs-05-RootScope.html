@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>RootScope</title>
+    <script src="scripts/angular.min.js"></script>
+    <meta charset="utf-8" />
+    <script type="text/javascript">
+        var app = angular.module("sample", []).run(["$rootScope", function ($rootScope) { 
+            $rootScope.Tax = 20;
+        }]);
+
+        app.controller("emp", ["$scope", function ($scope) {
+            $scope.Name = "Steve";
+        }])
+        app.controller("empdetails", ["$scope", function ($scope) {
+            $scope.Salary = 2500;
+            $scope.GenerateSalary = function () {
+                return $scope.Salary * 12;
+            }
+        }])
+        app.controller("salarydetails", ["$scope","$rootScope", function ($scope,$rootScope) {
+            $scope.GetTax = function () {
+                return $scope.Salary * $rootScope.Tax / 100;
+            }
+            $scope.GetGrossSalary = function () {
+                return $scope.Salary - $scope.GetTax();
+            }
+        }])
+    </script>
+</head>
+<body ng-app="sample">
+    <div ng-controller="emp">
+        Hello {{Name}}
+        <div ng-controller="empdetails">
+            {{Name}}, your monthly salary is {{Salary}} and your yearly salary is {{GenerateSalary()}}
+            <div ng-controller="salarydetails">
+                {{Name}}, your Tax is {{GetTax()}} and your GrossSalary is {{GetGrossSalary()}}
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

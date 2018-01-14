@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{D61A57A3-113F-4586-B31B-B358DC621D8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJs", "AngularJs\AngularJs.csproj", "{27AA0087-F7AB-43A4-A5A7-687AB409977A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{611BCD20-A96C-4ED0-91E4-52451C45F97C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{C41F891C-13AA-4930-97F0-D11FD072C894}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D61A57A3-113F-4586-B31B-B358DC621D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61A57A3-113F-4586-B31B-B358DC621D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D61A57A3-113F-4586-B31B-B358DC621D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D61A57A3-113F-4586-B31B-B358DC621D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27AA0087-F7AB-43A4-A5A7-687AB409977A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27AA0087-F7AB-43A4-A5A7-687AB409977A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27AA0087-F7AB-43A4-A5A7-687AB409977A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27AA0087-F7AB-43A4-A5A7-687AB409977A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{611BCD20-A96C-4ED0-91E4-52451C45F97C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{611BCD20-A96C-4ED0-91E4-52451C45F97C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{611BCD20-A96C-4ED0-91E4-52451C45F97C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{611BCD20-A96C-4ED0-91E4-52451C45F97C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C41F891C-13AA-4930-97F0-D11FD072C894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41F891C-13AA-4930-97F0-D11FD072C894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C41F891C-13AA-4930-97F0-D11FD072C894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C41F891C-13AA-4930-97F0-D11FD072C894}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://talentassessment.visualstudio.com/
+		SccProjectUniqueName0 = ConsoleTest\\ConsoleTest.csproj
+		SccProjectName0 = ConsoleTest
+		SccAuxPath0 = https://talentassessment.visualstudio.com
+		SccLocalPath0 = ConsoleTest
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = Test\\Test.csproj
+		SccProjectName1 = Test
+		SccAuxPath1 = https://talentassessment.visualstudio.com
+		SccLocalPath1 = Test
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = AngularJs\\AngularJs.csproj
+		SccProjectName2 = AngularJs
+		SccAuxPath2 = https://talentassessment.visualstudio.com
+		SccLocalPath2 = AngularJs
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = WebApi\\WebApi.csproj
+		SccProjectName3 = WebApi
+		SccAuxPath3 = https://talentassessment.visualstudio.com
+		SccLocalPath3 = WebApi
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal
